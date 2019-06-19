@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".activity_singup_p1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/background_image"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/golden_art2" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView_SingUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:text="@string/singup"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large_font_size" />
+
+                <ImageButton
+                    android:id="@+id/back_ImgBtn"
+                    android:layout_width="@dimen/action_button_size"
+                    android:layout_height="@dimen/action_button_size"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:background="@null"
+                    android:src="@mipmap/ic_action_back_white" />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="89dp"
+                android:layout_alignLeft="@+id/background_image"
+                android:layout_alignRight="@+id/background_image"
+                android:layout_alignBottom="@+id/background_image"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginLeft="282dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="9dp"
+                android:src="@drawable/default_avatar" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="501dp"
+                android:layout_below="@+id/background_image"
+                android:orientation="vertical"
+                android:padding="@dimen/standard_margin">
+
+                <TextView
+                    android:id="@+id/TextView_personal_information"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/standard_margin_x2"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:text="@string/subject"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_font_size" />
+
+                <EditText
+                    android:id="@+id/EditText_company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/form_fileds_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/form_fileds_margin"
+                    android:layout_marginBottom="@dimen/standard_margin_x2"
+                    android:hint="@string/company_name" />
+
+                <TextView
+                    android:id="@+id/TextView_field_of_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/standard_margin_x2"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:text="@string/field_of_activity"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_font_size" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin_x2"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin_x2"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:textSize="@dimen/normal_font_size">
+
+                    <RadioButton
+                        android:id="@+id/RadioButton_har_do"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:text="@string/har_do" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton_workshop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:text="@string/workshop" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton_store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:text="@string/store" />
+
+                </RadioGroup>
+
+
+                <Button
+                    android:id="@+id/continue_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/form_fileds_margin"
+                    android:layout_marginRight="@dimen/form_fileds_margin"
+                    android:text="@string/Continue" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

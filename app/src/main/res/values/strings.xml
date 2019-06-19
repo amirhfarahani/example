@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Golden_Art</string>
+    <string name="singup">ثبت نام</string>
+    <string name="Change_pic">تغییر عکس</string>
+    <string name="change_pic_success">ویرایش عکس با موفقیت انجام شد .</string>
+    <string name="personal_information">اطلاعات فردی</string>
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="phone">تلفن ثابت</string>
+    <string name="mobile">تلفن همراه</string>
+    <string name="address">نشانی</string>
+    <string name="company_name">نام مجموعه</string>
+    <string name="store">فروشگاه</string>
+    <string name="workshop">کارگاه</string>
+    <string name="subject">موضوع فعالیت</string>
+    <string name="subject_work">نوع فعالیت</string>
+    <string name="har_do">هر دو</string>
+    <string name="Null">هیچکدام</string>
+    <string name="Continue">ادامه</string>
+    <string name="name">نام و نام خانوادگی</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="try_password">تکرار رمز عبور</string>
+    <string name="save_form">ثبت اطلاعات</string>
+    <string name="account_information">اطلاعات حساب کاربری </string>
+    <string name="back">بازگشت</string>
+    <string name="login">ورود</string>
+    <string name="field_of_activity">زمینه فعالیت</string>
+
+</resources>
